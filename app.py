@@ -9,7 +9,7 @@ from PIL import Image
 from io import BytesIO
 
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyDI--JtInPfX5c2licf-vMMOD8NEe6u27g"
+os.environ["GEMINI_API_KEY"] = st.secrets['GEMINI_API_KEY']
 # st.secrets["GEMINI_API_KEY"]
 
 
